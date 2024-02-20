@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="weeding website.css">
+</head>
+<body>
+    <div class="banner">
+        <!-- Background banner with image of bride and groom -->
+        <img src="20230326_184342.jpg" alt="Bride and Groom">
+        <h1>Wedding Invitation</h1>
+        <p>Nikita & Arun</p>
+        <p>Date: 4th March 2024</p>
+        <p>Venue: nai pali pahari dely raksa jhansi</p>
+    </div>
+    
+    <div class="response">
+        <h2>send your wishes</h2>
+        <p>Please respond by accepting or rejecting the invitation:</p>
+        <button onclick="sendResponse('accept')">Accept</button>
+        <button onclick="sendResponse('reject')">Reject</button>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, please contact us:</p>
+        <p>Phone: 7392034563</p>
+    </div>
+
+    <script>
+        function sendResponse(response) {
+            // Code to send response to a phone number
+            // You'll need to implement this functionality using a backend service or API
+            // For demonstration purposes, I'll just log the response
+            console.log("Response:", response);
+        }
+    </script>
+</body>
+</html>
